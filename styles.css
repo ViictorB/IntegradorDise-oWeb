@@ -1,0 +1,182 @@
+.primeraBarraH{
+  color: #B8CBE2;
+  text-align: center;
+}
+
+.linea1{
+    height: 4ex;
+    background-color: #23242c;
+    text-align: center;
+  }
+.linea2{
+    height: 2px;
+    background-color: #e76801;
+  }
+
+#BarraNavegacion{
+  /* background: linear-gradient(to bottom, #2f3039, #e76801f1); */
+  background-color: #2f3039;
+  border: 0;
+  margin-top: 2rem;
+
+}
+#BarradeBusqueda{
+  background-color: #2f3039;
+  color: #a9c3e2;
+}
+#BarradeBusqueda::placeholder{
+  color: #b8cbe29f;
+}
+
+#BotonBuscar:hover{
+  width: 35px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+#LinkActivo{
+  color:  #e08438;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 21px;
+  padding-right: 30px;
+  padding-top: 20px;
+  
+}
+#LinkActivo:hover{
+  color: #ff7300;
+  transition: all 0.2s linear;
+}
+
+#LinksDeMenu{
+  color:  #a9c3e2;  ;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 21px;
+  padding-right: 30px;
+  padding-top: 20px;
+}
+#LinksDeMenu:hover{
+
+  transition: all 0.2s linear;
+  color: #61b2e7;
+}
+
+
+#ImagenPrincipal{
+  margin-top:1rem;
+  margin-bottom: 2rem;
+}
+
+#ImagenDePublicidad:hover{
+  width: 31%;
+  transition: all 0.2s linear;
+}
+
+.lineaDetitulos{
+  height: 4px;
+  background-color: #e76801;
+}
+
+#EfectoImagenes{
+ border-color: rgba(78, 66, 59, 0.267);
+ border-width: 3px;
+ border-bottom: 0px;
+ filter: brightness(0.99);
+}
+
+#EfectoImagenes:hover{
+  box-shadow: 0 9px 9px 0 rgba(0, 0, 0, 0.555);
+}
+
+
+#TitulosDeCartas{
+  color:  #d46103;
+  font-size: 3ex;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+#TitulosDeCartas:hover{
+   font-size: 27px;
+   transition: all 0.2s linear;
+   color:  #ff6600;
+}
+#TextodeCartas{
+  color: #B8CBE2;
+  font-family: 'Roboto', sans-serif;
+}
+#Precio{
+  color: #e76801;
+  font-size: 2ex;
+  text-align: center;
+  opacity: 0.7;
+  padding-left: 2rem;
+  text-decoration: line-through;
+}
+h1{
+  text-align: center;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 1rem;
+  background-color: #2f3039;
+  color: #B8CBE2;
+}
+
+h1:hover{
+  font-size: 3rem;
+  transition: all 0.2s linear;
+}
+h3{
+  font-size: 10ex;
+  color: #2f3039;
+  font-family: 'Chakra Petch', sans-serif;
+}
+h3:hover{
+  text-shadow: 2px 2px 4px rgba(238, 87, 0, 0.5);
+  transition: all 0.2s linear;
+  font-size: 4ex;
+}
+
+footer{
+   margin-top: 6rem;
+   padding-bottom: 0;
+   margin-bottom: 0;
+   background-color: #2f3039;
+}
+
+
+#PieDePagina{
+  text-align: center;
+  color: #B8CBE2;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+#IIParteDePieDePagina{
+   text-align: center;
+   padding-bottom: 1rem;
+   font-family: 'Roboto', sans-serif;
+}
+
+#TextoFooter{
+  text-decoration: none;
+  color: #B8CBE2;
+}
+#TextoFooter:hover{
+  font-size: 17px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+#Copyright{
+  color:#B8CBE2;
+  padding-right: 5rem;
+}
+
+h4:hover{
+  font-size: 28px;
+  transition: all 0.2s linear;
+  text-shadow: 2px 2px 4px rgba(39, 170, 159, 0.5);
+}
+
+#TituloDestacados:hover{
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.527);
+}

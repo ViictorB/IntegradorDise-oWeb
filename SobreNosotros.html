@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VB - Virtual Byte</title>
+    <link rel="icon" href="img/IconoEnter.png"> 
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="styles2.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Roboto-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!--Chakra Petch-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+ <body>
+<!--BARRA DE NAVEGACION CON 2 LINEAS-->
+
+      <div class="linea1 fixed-top">
+        <img src="img/ubicacion.png" alt="" width="22px">
+        <span class="primeraBarraH" style="padding-right: 50px;">San Juan  Argentina</span>
+        <img src="img/telefono.png" alt="" width="20px">
+        <span class="primeraBarraH">264511688  4355489</span>
+      </div>
+      <nav class="navbar navbar-expand-lg fixed-top"  style="padding: 0; "> 
+        <div class="container-fluid" id="BarraNavegacion">
+        <a href="index.html">
+          <img src="img/Logo.png" class="rounded mx-auto d-block " alt="..." width="350em">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: rgba(64, 203, 228, 0.301);color:rgba(0, 0, 0, 0.548)">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-3">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html" id="LinksDeMenu">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="SobreNosotros.html" id="LinkActivo">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contactanos.html" id="LinksDeMenu">Contactanos</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 md-5" type="search" placeholder="Que desea buscar?" aria-label="Search" id="BarradeBusqueda">
+              <span><img src="img/botonBuscar.png" alt="" width="30px" id="BotonBuscar" ></span>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="linea2 fixed-top"></div>
+
+        <!-- Contenido Principal-->
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" style="padding-bottom: 3rem;">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="4000">
+                <img src="img/FotoSlimeOscuro2.png" class="img-fluid w-100" alt="...">
+              </div>
+              <div class="carousel-caption " id="TextoDeSlime">
+                <p><img src="img/Logo.png" alt="" srcset="" width="400rem"></p>
+                <p>Un mundo nuevo a un clic de distancia</p>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="carousel-caption " id="TextoDeSlime" >
+                  <p><img src="img/Logo.png" alt="" srcset="" width="400rem"></p>
+                  <p>Mas de 7 años de Servicio</p>
+                </div>
+                <img src="img/FotoSlimeOscuro.png" alt="..." class="img-fluid w-100" >
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+    <div class="lineaDetitulos"></div>
+    <h1 id="EfectoImagenes">Sobre Nosotros</h1>
+
+    <div class="container" style="margin-top: 5rem; box-shadow: 0 6px 8px 0 rgba(87, 86, 86, 0.527); " > 
+        
+      <div class="row" style="background-color:#b8cbe21f;">
+        <div class="col-4">
+          <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link" href="#item-1"id="SeccionesIzquierda"><b>Bienvenida</b></a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1" href="#item-1-1" id="SeccionesIzquierda">Mision</a>
+                <a class="nav-link ms-3 my-1" href="#item-1-2"id="SeccionesIzquierda">Compromiso</a>
+              </nav>
+              <a class="nav-link" href="#item-2"id="SeccionesIzquierda"><b>Vision</b></a>
+              <a class="nav-link" href="#item-3"id="SeccionesIzquierda"><b>Nuestro Sitio Web</b></a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1" href="#item-3-1"id="SeccionesIzquierda">Secciones</a>
+                <a class="nav-link ms-3 my-1" href="#item-3-2"id="SeccionesIzquierda">Invitacion</a>
+              </nav>
+            </nav>
+          </nav>
+        </div>
+      
+        <div class="col-8" id="Textos">
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="4">
+            <div id="item-1">
+              <h4>Bienvenida</h4>
+              <div class="lineaDetitulos"></div>
+              <p>¡Bienvenido al mundo de Virtual Byte!<br>
+                Virtual Byte, una reconocida casa de informática fundada hace más de 7 años, ha sido líder en el campo de la tecnología y la innovación. Con una amplia gama de servicios y productos de alta calidad, hemos logrado establecer una sólida reputación en el mercado.</p>
+            </div>
+            <div id="item-1-1">
+              <h5><b>Mision</b></h5>
+              <p>Nuestra misión en es brindar soluciones informáticas eficientes y personalizadas para satisfacer las necesidades de nuestros clientes. Ya sea que busques reparación y mantenimiento de equipos, desarrollo de software a medida, diseño web o asesoramiento tecnológico, nuestro equipo de expertos está preparado para ayudarte.<br>uscamos constantemente romper barreras y desafiar los límites tecnológicos establecidos. Queremos ser reconocidos por nuestra capacidad para anticiparnos a las tendencias y ofrecer soluciones que marquen la pauta en la industria.</p>
+            </div>
+            <div id="item-1-2">
+              <h5><b>Compromiso</b></h5>
+              <p>Como parte de nuestro compromiso con la excelencia, en Virtual Byte nos mantenemos actualizados con las últimas tendencias y avances tecnológicos. Nuestros profesionales altamente capacitados y apasionados por la informática trabajan arduamente para ofrecerte soluciones innovadoras que impulsen tu negocio hacia el éxito.</p>
+            </div>
+            <div id="item-2">
+              <h4>Vision</h4>
+              <div class="lineaDetitulos"></div>
+              <p>En Virtual Byte, nuestra visión es convertirnos en la empresa líder en soluciones informáticas y tecnológicas a nivel mundial. Nos esforzamos por ser reconocidos como el referente indiscutible en el campo de la innovación y la excelencia en el sector de la informática.<br>
+                Nos visualizamos como la compañía que transforma la forma en que las personas y las empresas interactúan con la tecnología. Nuestro objetivo es impulsar el progreso y la productividad a través de soluciones informáticas vanguardistas que simplifiquen la vida de nuestros clientes.</p>
+            </div>
+            <div id="item-3">
+              <h4>Nuestro Sitio Web</h4>
+              <div class="lineaDetitulos"></div>
+              <p>El sitio web de Virtual Byte es una plataforma en línea integral diseñada para proporcionar a nuestros clientes información detallada sobre nuestros servicios, productos y soluciones informáticas. Nuestro objetivo es crear una experiencia interactiva y atractiva para los visitantes, brindándoles acceso a la información que necesitan de manera rápida y fácil.</p>
+            </div>
+            <div id="item-3-1">
+              <h5><b>Secciones</b></h5>
+              <p>Página de inicio: La página de inicio es la puerta de entrada a nuestro sitio web. Presentamos una visión general de Virtual Byte, destacando nuestra experiencia, servicios destacados y logros sobresalientes. También proporcionamos un breve resumen de nuestras áreas de especialización y los beneficios de elegirnos como tu socio tecnológico.
+                <br><br>Sobre nosotros: En esta sección, ofrecemos información detallada sobre nuestra empresa, su historia, valores, misión y visión. Aquí destacamos nuestra experiencia en el campo de la informática y resaltamos los aspectos únicos que nos diferencian de la competencia. También presentamos al equipo de expertos de Virtual Byte, compartiendo sus perfiles y logros profesionales
+                <br><br>Contactanos: En esta seccion brindamos a los visitantes varias formas de comunicarse con nosotros. Proporcionamos un formulario de contacto en el que los visitantes pueden enviar sus consultas directamente a nuestro equipo. También incluimos información de contacto, como dirección, número de teléfono y dirección de correo electrónico, para aquellos que prefieren comunicarse de manera más tradicional.</p>
+            </div>
+            <div id="item-3-2">
+              <h5><b>Invitacion</b></h5>
+              <p>Además de estas secciones principales, también nos aseguramos de que nuestro sitio web sea responsivo, lo que significa que se adapta a diferentes dispositivos y tamaños de pantalla. Esto garantiza una experiencia óptima para los visitantes que acceden a nuestro sitio desde computadoras de escritorio, laptops, tabletas o teléfonos móviles.
+                <br>Te invitamos a unirte a la familia de Virtual Byte y descubrir cómo podemos ayudarte a alcanzar tus metas informáticas. Estamos listos para ser tu socio tecnológico de confianza</p>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      <a href="#" class="btn" id="BotonVolver">
+          <img src="img/BotonVolver.png" alt="">
+      </a> 
+
+    </div>
+
+      
+
+<footer>
+  <div class="lineaDetitulos"></div>
+  <div class="container">
+    <div class="row" id="PieDePagina">
+      
+      <div class="col-6">
+        <h5>Redes Sociales</h5>
+        <hr>
+        <img src="img/IconoInstagram.png" width="30rem" srcset="" style="padding-right: 2px; cursor:pointer">
+        <a class="link-opacity-100" href="#" id="TextoFooter" style="padding-left: 10px;"></a>
+        <img src="img/IconoFacebook.png" width="30rem" srcset="" style="padding-right: 2px;cursor:pointer">
+        <a class="link-opacity-100" href="#"id="TextoFooter" style="padding-left: 10px;"></a>
+        <img src="img/IconoYoutube.png" width="33rem" srcset="" style="padding-right: 2px;cursor:pointer">
+        <a class="link-opacity-100" href="#"id="TextoFooter" style="padding-left: 10px;"></a>
+        <img src="img/iconoTelegram.png" width="38rem" srcset="" style="padding-right: 2px;cursor:pointer">
+        <a class="link-opacity-100" href="#"id="TextoFooter" style="padding-left: 10px;"></a>
+        <img src="img/iconoTwiter.png" width="30rem" srcset="" style="padding-right: 2px;cursor:pointer">
+        <a class="link-opacity-100" href="#"id="TextoFooter" style="padding-left: 10px;"></a>
+     </div>
+      
+      <div class="col-6">
+        <h5>Atencion Al Cliente</h5>
+        <hr>
+        <p id="TextoFooter">Lunes a Sabado: 09:00 a 21:00</p>
+      </div>
+
+    </div>
+    <div class="row" id="IIParteDePieDePagina">
+        <div class="col-12">
+            <img src="img/Copyright.png" alt="" srcset="" width="30px">
+            <span id="Copyright">Copyright - 2023</span>
+            <img src="img/Logo.png" alt="" srcset="" width="156rem">
+        </div>
+    </div>
+  </div>
+  
+</footer>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js" integrity="sha384-q9CRHqZndzlxGLOj+xrdLDJa9ittGte1NksRmgJKeCV9DrM7Kz868XYqsKWPpAmn" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+ </body>
+</html>
